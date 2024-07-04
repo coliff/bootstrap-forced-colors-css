@@ -32,7 +32,7 @@ Add this in the `<head>` which will load the CSS using a media query as follow:
 The CSS can be loaded via a CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-forced-colors-css@1.0.3/css/bootstrap-forced-colors.min.css" media="screen and (forced-colors: active)">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-forced-colors-css@1.0.4/css/bootstrap-forced-colors.min.css" media="screen and (forced-colors: active)">
 ```
 
 Or you can import the CSS into your own CSS file:
