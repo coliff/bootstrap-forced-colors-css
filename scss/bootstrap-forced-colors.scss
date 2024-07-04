@@ -1,0 +1,36 @@
+/*!
+ * Bootstrap for Forced Colors Active v1.0.0 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Copyright 2024 C.Oliff
+ * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
+ */
+
+@media (forced-colors: active) {
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+    }
+  }
+  @import "buttons";
+  @import "badges";
+  @import "forms/form-check";
+  @import "forms/form-control";
+  @import "forms/form-floating-labels";
+  @import "forms/form-range";
+  @import "forms/form-select";
+  @import "forms/form-switch";
+  @import "dropdown";
+  @import "accordion";
+  @import "list-group";
+  @import "modal";
+  @import "navbar";
+  @import "nav-link";
+  @import "pagination";
+  @import "placeholder";
+  @import "progress";
+  @import "close";
+  @import "carousel";
+  @import "tooltip";
+  @import "popover";
+  @import "spinner";
+  @import "tables";
+}

@@ -1,0 +1,20 @@
+.btn-close {
+  --bs-btn-close-opacity: 0.75;
+  --bs-btn-close-hover-opacity: 1;
+}
+
+@media (prefers-color-scheme: light) {
+  .btn-close-white {
+    filter: none;
+  }
+
+  .btn-close {
+    filter: none !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .btn-close {
+    filter: var(--bs-btn-close-white-filter);
+  }
+}

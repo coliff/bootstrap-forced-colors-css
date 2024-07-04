@@ -1,0 +1,30 @@
+{
+  "name": "coliff/bootstrap-forced-colors-css",
+  "description": "Bootstrap 5 for Internet Explorer 11",
+  "license": "MIT",
+  "homepage": "https://github.com/coliff/bootstrap-forced-colors-css#readme",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "edge",
+    "internet-explorer",
+    "high-contrast"
+  ],
+  "authors": [
+    {
+      "name": "Christian Oliff",
+      "homepage": "https://christianoliff.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/coliff/bootstrap-forced-colors-css/issues",
+    "docs": "https://github.com/coliff/bootstrap-forced-colors-css#readme"
+  },
+  "funding": [
+    {
+      "type": "PayPal",
+      "url": "https://paypal.me/coliff"
+    }
+  ]
+}

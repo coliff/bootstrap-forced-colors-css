@@ -1,0 +1,29 @@
+{
+  "version": "0.2",
+  "words": [
+    "ccircle",
+    "codeql",
+    "coliff",
+    "cpath",
+    "csvg",
+    "Dropup",
+    "hstack",
+    "jsdelivr",
+    "Navs",
+    "nomodule",
+    "npmjs",
+    "Oliff",
+    "Segoe",
+    "twbs",
+    "vbtn",
+    "vstack"
+  ],
+  "language": "en,en-US,lorem",
+  "allowCompoundWords": true,
+  "ignorePaths": [
+    ".cspell.json",
+    "**/node_modules/**",
+    "*.min.*"
+  ],
+  "useGitignore": true
+}

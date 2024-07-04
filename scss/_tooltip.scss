@@ -1,0 +1,11 @@
+.tooltip .tooltip-inner {
+  outline: 1px solid transparent;
+}
+
+.tooltip .tooltip-arrow {
+  forced-color-adjust: none;
+}
+
+.tooltip .tooltip-arrow::before {
+  forced-color-adjust: none;
+}

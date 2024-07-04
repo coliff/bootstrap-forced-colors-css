@@ -1,0 +1,65 @@
+{
+  "name": "bootstrap-forced-colors-css",
+  "version": "1.0.0",
+  "description": "Bootstrap 5 Forced Colors Active CSS",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "ie",
+    "internet-explorer",
+    "polyfill"
+  ],
+  "homepage": "https://github.com/coliff/bootstrap-forced-colors-css#readme",
+  "bugs": {
+    "url": "https://github.com/coliff/bootstrap-forced-colors-css/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coliff/bootstrap-forced-colors-css.git"
+  },
+  "funding": [
+    {
+      "type": "GitHub",
+      "url": "https://github.com/sponsors/coliff"
+    },
+    {
+      "type": "PayPal",
+      "url": "https://paypal.me/coliff"
+    }
+  ],
+  "license": "MIT",
+  "author": "Christian Oliff (https://christianoliff.com)",
+  "main": "css/bootstrap-forced-colors-css.min.css",
+  "files": [
+    "css/*",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "scss/*"
+  ],
+  "scripts": {
+    "build": "npm-run-all css-lint css-compile css-minify",
+    "css": "npm-run-all css-lint css-compile css-minify",
+    "css-compile": "sass --style expanded --source-map --embed-sources scss:css",
+    "css-lint": "stylelint \"scss/*.scss\" --fix -f verbose",
+    "css-minify": "cleancss --format breakWith=lf --source-map --source-map-inline-sources --output css/bootstrap-forced-colors.min.css css/bootstrap-forced-colors.css",
+    "html-lint": "npx htmlhint \"tests/*.html\"",
+    "pa11y": "npx pa11y https://coliff.github.io/bootstrap-forced-colors-css/tests/",
+    "prettier": "npx prettier --write \"**/*.{json,md,scss,yml}\"",
+    "serve": "npx http-server -o -p 8080 -c-1",
+    "spellcheck": "npx cspell \"**/*.*\" --no-progress",
+    "webhint": "npx hint ./tests/index.html",
+    "test": "npm run css-lint"
+  },
+  "config": {
+    "version_short": "5.3"
+  },
+  "devDependencies": {
+    "clean-css-cli": "4.3.0",
+    "npm-run-all": "4.1.5",
+    "sass": "1.77.6",
+    "stylelint": "16.6.1",
+    "stylelint-config-twbs-bootstrap": "14.2.0"
+  },
+  "sass": "scss/bootstrap-forced-colors.scss"
+}

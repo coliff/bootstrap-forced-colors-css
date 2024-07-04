@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: dark) {
+  .form-switch .form-check-input {
+    border: 1px solid;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .form-switch .form-check-input:checked {
+    forced-color-adjust: none;
+  }
+}

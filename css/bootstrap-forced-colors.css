@@ -1,0 +1,192 @@
+/*!
+ * Bootstrap for Forced Colors Active v1.0.0 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Copyright 2024 C.Oliff
+ * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
+ */
+@media (forced-colors: active) and (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+@media (forced-colors: active) {
+  .btn.disabled,
+  .btn[disabled] {
+    color: GrayText;
+    border-color: GrayText;
+  }
+  button:focus:not(:focus-visible) {
+    outline: 1px solid Highlight;
+  }
+  .btn .badge {
+    outline: 1px solid transparent;
+  }
+}
+@media (forced-colors: active) and (prefers-color-scheme: light) {
+  .form-check-input:checked {
+    forced-color-adjust: none;
+  }
+}
+@media (forced-colors: active) {
+  .form-check-input:focus {
+    outline: 1px solid Highlight;
+  }
+  .form-control:focus {
+    outline: 1px solid transparent;
+  }
+  .form-floating > label {
+    border: 0;
+  }
+  .form-floating > .form-control::-moz-placeholder, .form-floating > .form-control-plaintext::-moz-placeholder {
+    color: transparent;
+    forced-color-adjust: none;
+  }
+  .form-floating > .form-control::placeholder,
+  .form-floating > .form-control-plaintext::placeholder {
+    color: transparent;
+    forced-color-adjust: none;
+  }
+  .form-range {
+    forced-color-adjust: none;
+  }
+  .form-range:disabled {
+    opacity: 0.5;
+  }
+}
+@media (forced-colors: active) and (prefers-color-scheme: light) {
+  .form-select {
+    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+  }
+}
+@media (forced-colors: active) {
+  .form-select:focus {
+    outline: 1px solid transparent;
+  }
+}
+@media (forced-colors: active) and (prefers-color-scheme: dark) {
+  .form-switch .form-check-input {
+    border: 1px solid;
+  }
+}
+@media (forced-colors: active) and (prefers-color-scheme: light) {
+  .form-switch .form-check-input:checked {
+    forced-color-adjust: none;
+  }
+}
+@media (forced-colors: active) {
+  .dropdown-toggle::after,
+  .dropdown-toggle::before {
+    color: ButtonText;
+    forced-color-adjust: none;
+  }
+}
+@media (forced-colors: active) and (prefers-color-scheme: dark) {
+  .accordion-button::after {
+    filter: invert(1) saturate(0.1) brightness(9);
+  }
+}
+@media (forced-colors: active) {
+  .list-group-item.disabled,
+  .list-group-item:disabled {
+    color: GrayText;
+  }
+  .modal-backdrop {
+    --bs-backdrop-opacity: 0.8;
+  }
+  .navbar {
+    border-bottom: 1px solid transparent;
+  }
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  .navbar-dark,
+  .navbar[data-bs-theme=dark] {
+    filter: invert(0);
+  }
+  .nav-tabs .nav-link {
+    border: 0 !important;
+  }
+  .nav-tabs .nav-link.active {
+    border: 1px solid transparent !important;
+    border-bottom: 0 !important;
+    outline: 2px solid transparent;
+  }
+  .nav-link.disabled,
+  .nav-link:disabled {
+    color: GrayText;
+  }
+  .page-item.active {
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+  }
+  .disabled > .page-link,
+  .page-link.disabled {
+    color: GrayText;
+  }
+  .placeholder {
+    background-color: ButtonText;
+  }
+  .progress {
+    --bs-progress-bar-bg: Highlight;
+    outline: 1px solid transparent;
+  }
+  .progress-bar {
+    font-weight: 700;
+    background-color: CanvasText !important;
+    border-right: 1px solid transparent;
+  }
+  .progress-stacked {
+    outline: 1px solid transparent;
+  }
+  .btn-close {
+    --bs-btn-close-opacity: 0.75;
+    --bs-btn-close-hover-opacity: 1;
+  }
+}
+@media (forced-colors: active) and (prefers-color-scheme: light) {
+  .btn-close-white {
+    filter: none;
+  }
+  .btn-close {
+    filter: none !important;
+  }
+}
+@media (forced-colors: active) and (prefers-color-scheme: dark) {
+  .btn-close {
+    filter: var(--bs-btn-close-white-filter);
+  }
+}
+@media (forced-colors: active) {
+  .carousel-indicators [data-bs-target] {
+    forced-color-adjust: none;
+  }
+  .tooltip .tooltip-inner {
+    outline: 1px solid transparent;
+  }
+  .tooltip .tooltip-arrow {
+    forced-color-adjust: none;
+  }
+  .tooltip .tooltip-arrow::before {
+    forced-color-adjust: none;
+  }
+  .popover {
+    --bs-popover-arrow-border: ButtonText;
+  }
+  .popover .popover-inner {
+    outline: 1px solid transparent;
+  }
+  .popover .popover-arrow {
+    forced-color-adjust: none;
+  }
+  .spinner-border {
+    border-right-color: Canvas;
+  }
+  .spinner-grow {
+    background-color: ButtonText;
+    border: 1px solid transparent;
+  }
+  .table {
+    outline: 1px solid transparent;
+  }
+}
+
+/*# sourceMappingURL=bootstrap-forced-colors.css.map */

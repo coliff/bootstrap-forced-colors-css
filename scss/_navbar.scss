@@ -1,0 +1,12 @@
+.navbar {
+  border-bottom: 1px solid transparent;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar-dark,
+.navbar[data-bs-theme="dark"] {
+  filter: invert(0);
+}

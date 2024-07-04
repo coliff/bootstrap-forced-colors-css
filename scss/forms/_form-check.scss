@@ -1,0 +1,9 @@
+@media (prefers-color-scheme: light) {
+  .form-check-input:checked {
+    forced-color-adjust: none;
+  }
+}
+
+.form-check-input:focus {
+  outline: 1px solid Highlight;
+}

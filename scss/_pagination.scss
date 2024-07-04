@@ -1,0 +1,9 @@
+.page-item.active {
+  border: 1px solid transparent;
+  outline: 1px solid transparent;
+}
+
+.disabled > .page-link,
+.page-link.disabled {
+  color: GrayText;
+}

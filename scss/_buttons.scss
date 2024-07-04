@@ -1,0 +1,9 @@
+.btn.disabled,
+.btn[disabled] {
+  color: GrayText;
+  border-color: GrayText;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 1px solid Highlight;
+}

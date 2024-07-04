@@ -1,0 +1,13 @@
+.form-floating>label {
+  border: 0;
+}
+
+.form-floating > .form-control::-moz-placeholder, .form-floating > .form-control-plaintext::-moz-placeholder {
+  color: transparent;
+  forced-color-adjust: none;
+}
+.form-floating > .form-control::placeholder,
+.form-floating > .form-control-plaintext::placeholder {
+  color: transparent;
+  forced-color-adjust: none;
+}
