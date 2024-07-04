@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Forced Colors CSS v1.0.0 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Bootstrap Forced Colors CSS v1.0.1 (https://github.com/coliff/bootstrap-forced-colors-css)
  * Copyright 2024 C.Oliff
  * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
  */
@@ -23,7 +23,7 @@
 }
 @media (forced-colors: active) and (prefers-color-scheme: light) {
   .form-check-input:checked {
-    forced-color-adjust: none;
+    background-color: ButtonText;
   }
 }
 @media (forced-colors: active) {
@@ -32,6 +32,10 @@
   }
   .form-control:focus {
     outline: 1px solid transparent;
+  }
+  .form-control:disabled {
+    border-color: GrayText;
+    color: GrayText;
   }
   .form-floating > label {
     border: 0;
@@ -46,10 +50,27 @@
     forced-color-adjust: none;
   }
   .form-range {
-    forced-color-adjust: none;
+    -moz-appearance: auto;
+    -webkit-appearance: auto;
+    appearance: auto;
   }
   .form-range:disabled {
     opacity: 0.5;
+  }
+  .form-range::-webkit-slider-runnable-track {
+    background-color: ButtonText;
+  }
+  .form-range::-webkit-slider-thumb {
+    outline: 2px solid Canvas;
+  }
+  .form-range::-moz-range-thumb {
+    outline: 2px solid Canvas;
+  }
+  .form-range::-webkit-slider-thumb {
+    forced-color-adjust: none;
+  }
+  .form-range::-moz-range-thumb {
+    forced-color-adjust: none;
   }
 }
 @media (forced-colors: active) and (prefers-color-scheme: light) {
