@@ -1,3 +1,15 @@
 .carousel-indicators [data-bs-target] {
   forced-color-adjust: none;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: .8;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  opacity: 1;
+}

@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Forced Colors CSS v1.0.2 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Bootstrap Forced Colors CSS v1.0.3 (https://github.com/coliff/bootstrap-forced-colors-css)
  * Copyright 2024 C.Oliff
  * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
  */
@@ -94,8 +94,7 @@
   }
 }
 @media (forced-colors: active) {
-  .dropdown-toggle::after,
-  .dropdown-toggle::before {
+  .dropdown-toggle::after, .dropdown-toggle::before {
     color: ButtonText;
     forced-color-adjust: none;
   }
@@ -106,8 +105,7 @@
   }
 }
 @media (forced-colors: active) {
-  .list-group-item.disabled,
-  .list-group-item:disabled {
+  .list-group-item.disabled, .list-group-item:disabled {
     color: GrayText;
   }
   .modal-backdrop {
@@ -131,8 +129,7 @@
     border-bottom: 0 !important;
     outline: 2px solid transparent;
   }
-  .nav-link.disabled,
-  .nav-link:disabled {
+  .nav-tabs .nav-link.disabled, .nav-tabs .nav-link:disabled {
     color: GrayText;
   }
   .page-item.active .page-link {
@@ -179,6 +176,16 @@
 @media (forced-colors: active) {
   .carousel-indicators [data-bs-target] {
     forced-color-adjust: none;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    opacity: 0.8;
+  }
+  .carousel-control-next:focus,
+  .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover {
+    opacity: 1;
   }
   .tooltip .tooltip-inner {
     outline: 1px solid transparent;

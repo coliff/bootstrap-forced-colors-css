@@ -1,5 +1,7 @@
-.dropdown-toggle::after,
-.dropdown-toggle::before {
-  color: ButtonText;
-  forced-color-adjust: none;
+.dropdown-toggle {
+  &::after,
+  &::before {
+    color: ButtonText;
+    forced-color-adjust: none;
+  }
 }

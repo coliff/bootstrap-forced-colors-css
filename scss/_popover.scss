@@ -1,11 +1,11 @@
 .popover {
   --bs-popover-arrow-border: ButtonText;
-}
 
-.popover .popover-inner {
-  outline: 1px solid transparent;
-}
+  .popover-inner {
+    outline: 1px solid transparent;
+  }
 
-.popover .popover-arrow {
-  forced-color-adjust: none;
+  .popover-arrow {
+    forced-color-adjust: none;
+  }
 }

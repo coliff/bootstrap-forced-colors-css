@@ -15,7 +15,7 @@ This CSS file fixes many issues and adds enhancements to make Bootstrap 5 more a
 
 ## Quick start
 
-- Download the [latest release](https://github.com/coliff/bootstrap-forced-colors-css)
+- Download the [latest release](https://github.com/coliff/bootstrap-forced-colors-css/releases/latest)
 - Clone the repository `git clone https://github.com/coliff/bootstrap-forced-colors-css.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-forced-colors-css) `npm install bootstrap-forced-colors-css`
 - Install with [yarn](https://classic.yarnpkg.com/en/package/bootstrap-forced-colors-css) `yarn add bootstrap-forced-colors-css`
@@ -32,7 +32,7 @@ Add this in the `<head>` which will load the CSS using a media query as follow:
 The CSS can be loaded via a CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-forced-colors-css@1.0.2/css/bootstrap-forced-colors.min.css" media="screen and (forced-colors: active)">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-forced-colors-css@1.0.3/css/bootstrap-forced-colors.min.css" media="screen and (forced-colors: active)">
 ```
 
 Or you can import the CSS into your own CSS file:
