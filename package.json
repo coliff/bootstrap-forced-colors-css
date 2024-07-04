@@ -42,7 +42,7 @@
     "css": "npm-run-all css-lint css-compile css-minify",
     "css-compile": "sass --style expanded --source-map --embed-sources scss:css",
     "css-lint": "stylelint \"scss/*.scss\" --fix -f verbose",
-    "css-minify": "cleancss --format breakWith=lf --source-map --source-map-inline-sources --output css/bootstrap-forced-colors.min.css css/bootstrap-forced-colors.css",
+    "css-minify": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output css/bootstrap-forced-colors.min.css css/bootstrap-forced-colors.css",
     "html-lint": "npx htmlhint \"tests/*.html\"",
     "pa11y": "npx pa11y https://coliff.github.io/bootstrap-forced-colors-css/tests/",
     "prettier": "npx prettier --write \"**/*.{json,md,scss,yml}\"",
@@ -52,7 +52,7 @@
     "test": "npm run css-lint"
   },
   "devDependencies": {
-    "clean-css-cli": "4.3.0",
+    "clean-css-cli": "5.6.3",
     "npm-run-all": "4.1.5",
     "sass": "1.77.6",
     "stylelint": "16.6.1",
