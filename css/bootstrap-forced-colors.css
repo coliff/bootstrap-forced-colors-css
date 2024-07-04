@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Forced Colors CSS v1.0.1 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Bootstrap Forced Colors CSS v1.0.2 (https://github.com/coliff/bootstrap-forced-colors-css)
  * Copyright 2024 C.Oliff
  * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
  */
@@ -23,7 +23,7 @@
 }
 @media (forced-colors: active) and (prefers-color-scheme: light) {
   .form-check-input:checked {
-    background-color: ButtonText;
+    background-color: ButtonText !important;
   }
 }
 @media (forced-colors: active) {
@@ -135,8 +135,8 @@
   .nav-link:disabled {
     color: GrayText;
   }
-  .page-item.active {
-    border: 1px solid transparent;
+  .page-item.active .page-link {
+    color: ButtonText;
     outline: 1px solid transparent;
   }
   .disabled > .page-link,
