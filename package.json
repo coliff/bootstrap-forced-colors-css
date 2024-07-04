@@ -46,7 +46,7 @@
     "html-lint": "npx htmlhint \"tests/*.html\"",
     "pa11y": "npx pa11y https://coliff.github.io/bootstrap-forced-colors-css/tests/",
     "prettier": "npx prettier --write \"**/*.{json,md,scss,yml}\"",
-    "serve": "npx http-server -o -p 8080 -c-1",
+    "serve": "npx http-server -o /tests/index.html -p 8080 -c-1",
     "spellcheck": "npx cspell \"**/*.*\" --no-progress",
     "webhint": "npx hint ./tests/index.html",
     "test": "npm run css-lint"

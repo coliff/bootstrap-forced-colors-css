@@ -1,4 +1,6 @@
-.list-group-item.disabled,
-.list-group-item:disabled {
-  color: GrayText;
+.list-group-item {
+  &.disabled,
+  &:disabled {
+    color: GrayText;
+  }
 }
