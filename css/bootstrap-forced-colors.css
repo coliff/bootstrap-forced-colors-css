@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Forced Colors CSS v1.0.3 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Bootstrap Forced Colors CSS v1.0.4 (https://github.com/coliff/bootstrap-forced-colors-css)
  * Copyright 2024 C.Oliff
  * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
  */
@@ -16,6 +16,13 @@
   }
   button:focus:not(:focus-visible) {
     outline: 1px solid Highlight;
+  }
+  .btn-check:checked + .btn,
+  .btn.active,
+  .btn.show,
+  .btn:first-child:active,
+  :not(.btn-check) + .btn:active {
+    background-color: Highlight;
   }
   .btn .badge {
     outline: 1px solid transparent;
