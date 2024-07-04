@@ -1,13 +1,13 @@
 {
   "name": "coliff/bootstrap-forced-colors-css",
-  "description": "Bootstrap 5 for Internet Explorer 11",
+  "description": "Bootstrap 5 Forced Colors CSS for Windows High Contrast Themes",
   "license": "MIT",
   "homepage": "https://github.com/coliff/bootstrap-forced-colors-css#readme",
   "keywords": [
     "bootstrap",
     "css",
-    "edge",
-    "internet-explorer",
+    "windows",
+    "accessibility",
     "high-contrast"
   ],
   "authors": [

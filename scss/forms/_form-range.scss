@@ -1,7 +1,29 @@
 .form-range {
-  forced-color-adjust: none;
+  -moz-appearance: auto;
+  -webkit-appearance: auto;
+  appearance: auto;
 }
 
 .form-range:disabled {
   opacity: 0.5;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  background-color: ButtonText;
+}
+
+.form-range::-webkit-slider-thumb {
+  outline: 2px solid Canvas;
+}
+
+.form-range::-moz-range-thumb {
+  outline: 2px solid Canvas;
+}
+
+.form-range::-webkit-slider-thumb {
+  forced-color-adjust: none;
+}
+
+.form-range::-moz-range-thumb {
+  forced-color-adjust: none;
 }

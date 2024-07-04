@@ -1,13 +1,13 @@
 {
   "name": "bootstrap-forced-colors-css",
-  "version": "1.0.0",
-  "description": "Bootstrap 5 Forced Colors Active CSS",
+  "version": "1.0.1",
+  "description": "Bootstrap 5 Forced Colors CSS for Windows High Contrast Themes",
   "keywords": [
     "bootstrap",
     "css",
-    "ie",
-    "internet-explorer",
-    "polyfill"
+    "windows",
+    "accessibility",
+    "high-contrast"
   ],
   "homepage": "https://github.com/coliff/bootstrap-forced-colors-css#readme",
   "bugs": {
