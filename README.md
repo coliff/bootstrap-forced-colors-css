@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/coliff/bootstrap-forced-colors-css/blob/main/.github/preview.png" width="500" alt="Bootstrap 5 Forced Colors CSS">
+<img src="https://github.com/coliff/bootstrap-forced-colors-css/blob/main/.github/preview.png?raw=true" width="500" alt="Bootstrap 5 Forced Colors CSS">
 </p>
 
 <h3 align="center">Bootstrap Forced Colors CSS</h3>
