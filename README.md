@@ -83,7 +83,7 @@ See this in action at: [https://coliff.github.io/bootstrap-forced-colors-css/tes
 Currently, only Windows 10 & 11 with Edge, Firefox, and Chrome support forced colors mode. To test, you can enable forced colors mode in:
 
 - Windows 10: Go to `Settings > Ease of Access > High contrast` and select a theme.
-- Windows 11: Got to `Settings > Accessibility > Contrast themes` and select a theme.
+- Windows 11: Go to `Settings > Accessibility > Contrast themes` and select a theme.
 
 You can also use the [Forced Colors Mode Emulation](https://developer.chrome.com/docs/devtools/rendering/emulate-css#emulate_css_media_feature_forced-colors) in Edge and Chrome on all platforms.
 
