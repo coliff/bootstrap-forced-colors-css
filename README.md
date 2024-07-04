@@ -5,7 +5,6 @@
 <h3 align="center">Bootstrap Forced Colors CSS</h3>
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/bootstrap-forced-colors-css/main/LICENSE)
-[![GitHub Super-Linter](https://github.com/coliff/bootstrap-forced-colors-css/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![GitHub stars image](https://img.shields.io/github/stars/coliff/bootstrap-forced-colors-css.svg?label=GitHub%20Stars)](https://github.com/coliff/bootstrap-forced-colors-css)
 [![npm Version](https://img.shields.io/npm/v/bootstrap-forced-colors-css)](https://www.npmjs.com/package/bootstrap-forced-colors-css)
 [![jsdelivr](https://data.jsdelivr.com/v1/package/npm/bootstrap-forced-colors-css/badge)](https://www.jsdelivr.com/package/npm/bootstrap-forced-colors-css)
@@ -90,4 +89,4 @@ You can also use the [Forced Colors Mode Emulation](https://developer.chrome.com
 > [!NOTE]
 > By default, the Forced Colors Mode emulation is a dark mode theme, but you can switch to a light theme by forcing the `prefers-color-scheme` to light in the Dev Tools. Remember that the user can't use Bootstrap's light/dark mode theme toggle. The color scheme is set by the user at the OS level.
 
-Note that [CanIUse lists Safari as supporting forced colors mode](https://caniuse.com/mdn-css_at-rules_media_forced-colors), but macOS itself doesn't have a Forced Colors / High Contrast mode which means it's not possible to use this with Safari at all.
+Note that [CanIUse lists Safari as supporting forced colors mode](https://caniuse.com/mdn-css_at-rules_media_forced-colors), however macOS itself doesn't have a Forced Colors / High Contrast mode which means it's not possible to use this with Safari at all.
