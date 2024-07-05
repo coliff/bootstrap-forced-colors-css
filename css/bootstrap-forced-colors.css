@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Forced Colors CSS v1.0.4 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Bootstrap Forced Colors CSS v1.0.5 (https://github.com/coliff/bootstrap-forced-colors-css)
  * Copyright 2024 C.Oliff
  * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
  */
@@ -101,6 +101,10 @@
   }
 }
 @media (forced-colors: active) {
+  .vr {
+    background-color: ButtonText;
+    opacity: 0.5;
+  }
   .dropdown-toggle::after, .dropdown-toggle::before {
     color: ButtonText;
     forced-color-adjust: none;
@@ -138,6 +142,10 @@
   }
   .nav-tabs .nav-link.disabled, .nav-tabs .nav-link:disabled {
     color: GrayText;
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    outline: 1px solid transparent;
   }
   .page-item.active .page-link {
     color: ButtonText;
