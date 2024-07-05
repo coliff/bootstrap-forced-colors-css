@@ -14,3 +14,10 @@
     }
   }
 }
+
+.nav-pills {
+  .nav-link.active,
+  .show > .nav-link {
+    outline: 1px solid transparent;
+  }
+}

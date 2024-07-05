@@ -58,16 +58,18 @@ Or you can import the CSS into your own CSS file:
 - [List Group](https://coliff.github.io/bootstrap-forced-colors-css/tests/#list-group) disabled items display the correct color using the `GrayText` name
 - [Modal](https://coliff.github.io/bootstrap-forced-colors-css/tests/#modal) backdrop opacity changed from 0.5 to 0.8
 - [Navbar](https://coliff.github.io/bootstrap-forced-colors-css/tests/#navbar) Menu (hamburger) toggle icons display correctly
+- [Navs](https://coliff.github.io/bootstrap-forced-colors-css/tests/#navs) Improves active and focus state contrast
 - [Pagination](https://coliff.github.io/bootstrap-forced-colors-css/tests/#pagination): Active page link has outline to indicate active page
 - [Pagination](https://coliff.github.io/bootstrap-forced-colors-css/tests/#pagination): Disabled page link display the correct color using the `GrayText` name
 - [Placeholder](https://coliff.github.io/bootstrap-forced-colors-css/tests/#placeholder): Fix for invisible placeholder boxes
-- [Popovers](https://coliff.github.io/bootstrap-forced-colors-css/tests/#popovers): Fixed invisible arrow issue
+- [Popovers](https://coliff.github.io/bootstrap-forced-colors-css/tests/#popovers): Fixes invisible arrow issue
 - [Progress](https://coliff.github.io/bootstrap-forced-colors-css/tests/#progress): Is no longer invisible
-- [Spinners](https://coliff.github.io/bootstrap-forced-colors-css/tests/#spinners): Fixed animation
+- [Spinners](https://coliff.github.io/bootstrap-forced-colors-css/tests/#spinners): Fixes animation
 - [Tables](https://coliff.github.io/bootstrap-forced-colors-css/tests/#tables): Have a 1px outline to improve contrast
-- [Toasts](https://coliff.github.io/bootstrap-forced-colors-css/tests/#toasts): Fixed invisible close/dismiss button
+- [Toasts](https://coliff.github.io/bootstrap-forced-colors-css/tests/#toasts): Fixes invisible close/dismiss button
 - [Tooltips](https://coliff.github.io/bootstrap-forced-colors-css/tests/#tooltips): Fix for arrows appearing as rectangles
 - [Tooltips](https://coliff.github.io/bootstrap-forced-colors-css/tests/#tooltips): Add 1px border to tooltips content
+- [Vertical Rule](https://coliff.github.io/bootstrap-forced-colors-css/tests/#navbar): Fixes invisible vertical rule
 
 ### Known Issues
 
