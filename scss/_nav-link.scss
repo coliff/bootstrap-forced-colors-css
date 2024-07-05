@@ -1,17 +1,17 @@
-.nav-tabs {
-  .nav-link {
-    border: 0 !important;
+.nav-tabs .nav-link {
+  border: 0 !important;
+}
 
-    &.active {
-      border: 1px solid transparent !important;
-      border-bottom: 0 !important;
-      outline: 2px solid transparent;
-    }
+.nav-link {
+  &.active {
+    border: 1px solid transparent;
+    border-bottom: 0 !important;
+    outline: 2px solid transparent;
+  }
 
-    &.disabled,
-    &:disabled {
-      color: GrayText;
-    }
+  &.disabled,
+  &:disabled {
+    color: GrayText;
   }
 }
 

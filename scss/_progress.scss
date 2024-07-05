@@ -1,14 +1,18 @@
 .progress {
   --bs-progress-bar-bg: Highlight;
   outline: 1px solid transparent;
-}
 
-.progress-bar {
-  font-weight: 700;
-  background-color: CanvasText !important;
-  border-right: 1px solid transparent;
+  .progress-bar {
+    font-weight: 700;
+    background-color: CanvasText !important;
+    border-right: 1px solid transparent;
+  }
 }
 
 .progress-stacked {
   outline: 1px solid transparent;
+
+  .progress:nth-child(even) {
+    opacity: 0.5;
+  }
 }

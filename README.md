@@ -64,12 +64,14 @@ Or you can import the CSS into your own CSS file:
 - [Placeholder](https://coliff.github.io/bootstrap-forced-colors-css/tests/#placeholder): Fix for invisible placeholder boxes
 - [Popovers](https://coliff.github.io/bootstrap-forced-colors-css/tests/#popovers): Fixes invisible arrow issue
 - [Progress](https://coliff.github.io/bootstrap-forced-colors-css/tests/#progress): Is no longer invisible
+- [Progress](https://coliff.github.io/bootstrap-forced-colors-css/tests/#progress): Improved stacked progress bar contrast
 - [Spinners](https://coliff.github.io/bootstrap-forced-colors-css/tests/#spinners): Fixes animation
 - [Tables](https://coliff.github.io/bootstrap-forced-colors-css/tests/#tables): Have a 1px outline to improve contrast
 - [Toasts](https://coliff.github.io/bootstrap-forced-colors-css/tests/#toasts): Fixes invisible close/dismiss button
 - [Tooltips](https://coliff.github.io/bootstrap-forced-colors-css/tests/#tooltips): Fix for arrows appearing as rectangles
 - [Tooltips](https://coliff.github.io/bootstrap-forced-colors-css/tests/#tooltips): Add 1px border to tooltips content
 - [Vertical Rule](https://coliff.github.io/bootstrap-forced-colors-css/tests/#navbar): Fixes invisible vertical rule
+- [Horizontal Rule](https://coliff.github.io/bootstrap-forced-colors-css/tests/#navbar): Improves contrast by changing opacity from 0.25 to 0.5
 
 ### Known Issues
 

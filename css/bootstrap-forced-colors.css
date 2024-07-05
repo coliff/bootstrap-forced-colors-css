@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Forced Colors CSS v1.0.5 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Bootstrap Forced Colors CSS v1.0.6 (https://github.com/coliff/bootstrap-forced-colors-css)
  * Copyright 2024 C.Oliff
  * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
  */
@@ -9,6 +9,9 @@
   }
 }
 @media (forced-colors: active) {
+  hr {
+    opacity: 0.5;
+  }
   .btn.disabled,
   .btn[disabled] {
     color: GrayText;
@@ -47,7 +50,8 @@
   .form-floating > label {
     border: 0;
   }
-  .form-floating > .form-control::-moz-placeholder, .form-floating > .form-control-plaintext::-moz-placeholder {
+  .form-floating > .form-control::-moz-placeholder,
+  .form-floating > .form-control-plaintext::-moz-placeholder {
     color: transparent;
     forced-color-adjust: none;
   }
@@ -55,6 +59,10 @@
   .form-floating > .form-control-plaintext::placeholder {
     color: transparent;
     forced-color-adjust: none;
+  }
+  .form-floating > .form-control:disabled ~ label,
+  .form-floating > :disabled ~ label {
+    color: GrayText;
   }
   .form-range {
     -moz-appearance: auto;
@@ -135,12 +143,12 @@
   .nav-tabs .nav-link {
     border: 0 !important;
   }
-  .nav-tabs .nav-link.active {
-    border: 1px solid transparent !important;
+  .nav-link.active {
+    border: 1px solid transparent;
     border-bottom: 0 !important;
     outline: 2px solid transparent;
   }
-  .nav-tabs .nav-link.disabled, .nav-tabs .nav-link:disabled {
+  .nav-link.disabled, .nav-link:disabled {
     color: GrayText;
   }
   .nav-pills .nav-link.active,
@@ -162,13 +170,16 @@
     --bs-progress-bar-bg: Highlight;
     outline: 1px solid transparent;
   }
-  .progress-bar {
+  .progress .progress-bar {
     font-weight: 700;
     background-color: CanvasText !important;
     border-right: 1px solid transparent;
   }
   .progress-stacked {
     outline: 1px solid transparent;
+  }
+  .progress-stacked .progress:nth-child(even) {
+    opacity: 0.5;
   }
   .btn-close {
     --bs-btn-close-opacity: 0.75;
