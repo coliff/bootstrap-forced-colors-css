@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Forced Colors CSS v1.0.5 (https://github.com/coliff/bootstrap-forced-colors-css)
+ * Bootstrap Forced Colors CSS v1.0.6 (https://github.com/coliff/bootstrap-forced-colors-css)
  * Copyright 2024 C.Oliff
  * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
  */
@@ -10,6 +10,7 @@
       color-scheme: dark;
     }
   }
+  @import "reboot";
   @import "buttons";
   @import "button-group";
   @import "badges";
