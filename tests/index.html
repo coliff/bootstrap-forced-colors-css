@@ -14,11 +14,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <meta property="og:image" content="https://github.com/coliff/bootstrap-forced-colors-css/blob/main/.github/preview.png?raw=true">
     <script>
-    // A JavaScript which detects if the user has forced colors enabled and also has prefers-color-scheme: dark and the html element has a data-bs-theme="light" attribute
-    // If all of these conditions are met, the script will change the data-bs-theme attribute to data-bs-theme="dark"
-    // This fixes an issue with unchecked switch toggle appearing invisible and improves contrast on form-select icon
-    if (window.matchMedia('(forced-colors: active)').matches && window.matchMedia('(prefers-color-scheme: dark)').matches && document.documentElement.getAttribute('data-bs-theme') === 'light') {
-      document.documentElement.setAttribute('data-bs-theme', 'dark');
+    // A JavaScript which detects if the user has forced colors enabled and matches the prefers-color-scheme preference to the data-bs-theme attribute
+    const forcedColorsActive = window.matchMedia('(forced-colors: active)').matches;
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    const theme = document.documentElement.getAttribute('data-bs-theme');
+
+    if (forcedColorsActive) {
+      if (prefersDark && theme === 'light') document.documentElement.setAttribute('data-bs-theme', 'dark');
+      if (prefersLight && theme === 'dark') document.documentElement.setAttribute('data-bs-theme', 'light');
     }
     </script>
 

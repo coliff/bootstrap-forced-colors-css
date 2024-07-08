@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-forced-colors-css",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Bootstrap 5 Forced Colors CSS for Windows High Contrast Themes",
   "keywords": [
     "bootstrap",
@@ -29,7 +29,7 @@
   ],
   "license": "MIT",
   "author": "Christian Oliff (https://christianoliff.com)",
-  "main": "css/bootstrap-forced-colors-css.min.css",
+  "main": "css/bootstrap-forced-colors.min.css",
   "files": [
     "css/*",
     "LICENSE",

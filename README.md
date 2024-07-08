@@ -18,7 +18,7 @@ This CSS file fixes many issues and adds enhancements to make Bootstrap 5 more a
 - Download the [latest release](https://github.com/coliff/bootstrap-forced-colors-css/releases/latest)
 - Clone the repository `git clone https://github.com/coliff/bootstrap-forced-colors-css.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-forced-colors-css) `npm install bootstrap-forced-colors-css`
-- Install with [yarn](https://classic.yarnpkg.com/en/package/bootstrap-forced-colors-css) `yarn add bootstrap-forced-colors-css`
+- Install with [Yarn](https://classic.yarnpkg.com/en/package/bootstrap-forced-colors-css) `yarn add bootstrap-forced-colors-css`
 - Install with [Composer](https://packagist.org/packages/coliff/bootstrap-forced-colors-css) `composer require coliff/bootstrap-forced-colors-css`
 
 ## Usage
