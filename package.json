@@ -29,7 +29,7 @@
   ],
   "license": "MIT",
   "author": "Christian Oliff (https://christianoliff.com)",
-  "main": "css/bootstrap-forced-colors-css.min.css",
+  "main": "css/bootstrap-forced-colors.min.css",
   "files": [
     "css/*",
     "LICENSE",

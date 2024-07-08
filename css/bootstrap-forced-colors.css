@@ -40,6 +40,9 @@
   .form-check-input:focus {
     outline: 1px solid Highlight;
   }
+  .form-check-input:disabled ~ .form-check-label, .form-check-input[disabled] ~ .form-check-label {
+    color: GrayText;
+  }
   .form-control:focus {
     outline: 1px solid transparent;
   }
