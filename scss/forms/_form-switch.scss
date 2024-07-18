@@ -2,6 +2,10 @@
   .form-switch .form-check-input {
     border: 1px solid;
   }
+
+  [data-bs-theme="dark"] .form-switch .form-check-input:not(:checked):not(:focus) {
+    filter: brightness(5);
+  }
 }
 
 @media (prefers-color-scheme: light) {
