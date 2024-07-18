@@ -84,12 +84,6 @@
   .form-range::-moz-range-thumb {
     outline: 2px solid Canvas;
   }
-  .form-range::-webkit-slider-thumb {
-    forced-color-adjust: none;
-  }
-  .form-range::-moz-range-thumb {
-    forced-color-adjust: none;
-  }
 }
 @media (forced-colors: active) and (prefers-color-scheme: light) {
   .form-select {
@@ -104,6 +98,9 @@
 @media (forced-colors: active) and (prefers-color-scheme: dark) {
   .form-switch .form-check-input {
     border: 1px solid;
+  }
+  [data-bs-theme=dark] .form-switch .form-check-input:not(:checked):not(:focus) {
+    filter: brightness(5);
   }
 }
 @media (forced-colors: active) and (prefers-color-scheme: light) {
