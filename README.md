@@ -4,11 +4,11 @@
 
 <h3 align="center">Bootstrap Forced Colors CSS</h3>
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/bootstrap-forced-colors-css/main/LICENSE)
+[![LICENSE: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/bootstrap-forced-colors-css/main/LICENSE)
 [![GitHub stars image](https://img.shields.io/github/stars/coliff/bootstrap-forced-colors-css.svg?label=GitHub%20Stars)](https://github.com/coliff/bootstrap-forced-colors-css)
 [![npm Version](https://img.shields.io/npm/v/bootstrap-forced-colors-css)](https://www.npmjs.com/package/bootstrap-forced-colors-css)
-[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/bootstrap-forced-colors-css/badge)](https://www.jsdelivr.com/package/npm/bootstrap-forced-colors-css)
 [![npm Downloads](https://img.shields.io/npm/dt/bootstrap-forced-colors-css.svg)](https://www.npmjs.com/package/bootstrap-forced-colors-css)
+[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/bootstrap-forced-colors-css/badge)](https://www.jsdelivr.com/package/npm/bootstrap-forced-colors-css)
 
 Enhances the accessibility of Bootstrap 5 when using with [Contrast themes in Windows](https://blogs.windows.com/msedgedev/2020/09/17/styling-for-windows-high-contrast-with-new-standards-for-forced-colors/).
 
