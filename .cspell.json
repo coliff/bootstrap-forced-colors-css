@@ -22,10 +22,6 @@
   ],
   "language": "en,en-US,lorem",
   "allowCompoundWords": true,
-  "ignorePaths": [
-    ".cspell.json",
-    "**/node_modules/**",
-    "*.min.*"
-  ],
+  "ignorePaths": [".cspell.json", "**/node_modules/**", "*.min.*"],
   "useGitignore": true
 }
