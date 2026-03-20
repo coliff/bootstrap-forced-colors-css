@@ -18,18 +18,23 @@ jobs:
       pull-requests: write
       statuses: write # for github/super-linter/slim to mark status of each linter run
     name: Lint Code Base
+    if: github.event.pull_request.draft != true
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
           fetch-depth: 0
           persist-credentials: false
 
+      - name: Install dependencies
+        run: npm i
+
       - name: Lint Code Base
         uses: super-linter/super-linter/slim@61abc07d755095a68f4987d1c2c3d1d64408f1f9 # v8.5.0
         env:
+          CSS_FILE_NAME: stylelint.config.mjs
           DEFAULT_BRANCH: main
           FILTER_REGEX_EXCLUDE: .*css/.*
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -40,7 +45,6 @@ jobs:
           VALIDATE_BIOME_FORMAT: false
           VALIDATE_BIOME_LINT: false
           VALIDATE_CHECKOV: false
-          VALIDATE_CSS: false
           VALIDATE_EDITORCONFIG: false
           VALIDATE_JSCPD: false
           VALIDATE_MARKDOWN: false
