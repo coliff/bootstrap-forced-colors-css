@@ -60,6 +60,6 @@
   },
   "sass": "scss/bootstrap-forced-colors.scss",
   "volta": {
-    "node": "22.21.1"
+    "node": "24.14.0"
   }
 }

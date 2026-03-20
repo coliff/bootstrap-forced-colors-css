@@ -1,0 +1,10 @@
+/** @type {import('stylelint').Config} */
+export default {
+  extends: "stylelint-config-twbs-bootstrap",
+  rules: {
+    "@stylistic/number-leading-zero": null,
+    "declaration-no-important": null,
+    "no-invalid-position-at-import-rule": null,
+    "value-no-vendor-prefix": null,
+  },
+};
