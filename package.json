@@ -45,7 +45,7 @@
     "css-minify": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output css/bootstrap-forced-colors.min.css css/bootstrap-forced-colors.css",
     "html-lint": "npx htmlhint \"tests/*.html\"",
     "pa11y": "npx pa11y https://coliff.github.io/bootstrap-forced-colors-css/tests/ --threshold 2 --ignore WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
-    "prettier": "npx prettier --write \"**/*.{json,md,scss,yml}\"",
+    "prettier": "npx prettier --write \"**/*.{json,md,scss,yml,mjs}\"",
     "serve": "npx http-server -o /tests/index.html -p 8080 -c-1",
     "spellcheck": "npx cspell \"**/*.*\" --no-progress",
     "webhint": "npx hint ./tests/index.html",

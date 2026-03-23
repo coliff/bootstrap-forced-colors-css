@@ -9,6 +9,7 @@
 *.vi
 *.zip
 *~
+package-lock.json
 
 # OS or Editor folders
 ._*
