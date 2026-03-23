@@ -1,6 +1,7 @@
 /** @type {import('stylelint').Config} */
 export default {
   extends: "stylelint-config-twbs-bootstrap",
+  ignoreFiles: ["**/*.css"],
   rules: {
     "@stylistic/number-leading-zero": null,
     "declaration-no-important": null,
