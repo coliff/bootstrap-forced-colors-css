@@ -1,3 +1,4 @@
+---
 name: Tests
 
 on:
@@ -23,7 +24,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: ["24.14.0"]
+        node: ["24.21.0"]
         os: [ubuntu-latest]
 
     steps:
