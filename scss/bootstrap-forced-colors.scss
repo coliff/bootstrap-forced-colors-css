@@ -4,36 +4,38 @@
  * Licensed under MIT (https://github.com/coliff/bootstrap-forced-colors-css/blob/main/LICENSE)
  */
 
+@use "sass:meta";
+
 @media (forced-colors: active) {
   @media (prefers-color-scheme: dark) {
     :root {
       color-scheme: dark;
     }
   }
-  @import "reboot";
-  @import "buttons";
-  @import "button-group";
-  @import "badges";
-  @import "forms/form-check";
-  @import "forms/form-control";
-  @import "forms/form-floating-labels";
-  @import "forms/form-range";
-  @import "forms/form-select";
-  @import "forms/form-switch";
-  @import "helpers/vr";
-  @import "dropdown";
-  @import "accordion";
-  @import "list-group";
-  @import "modal";
-  @import "navbar";
-  @import "nav-link";
-  @import "pagination";
-  @import "placeholder";
-  @import "progress";
-  @import "close";
-  @import "carousel";
-  @import "tooltip";
-  @import "popover";
-  @import "spinner";
-  @import "tables";
+  @include meta.load-css("reboot");
+  @include meta.load-css("buttons");
+  @include meta.load-css("button-group");
+  @include meta.load-css("badges");
+  @include meta.load-css("forms/form-check");
+  @include meta.load-css("forms/form-control");
+  @include meta.load-css("forms/form-floating-labels");
+  @include meta.load-css("forms/form-range");
+  @include meta.load-css("forms/form-select");
+  @include meta.load-css("forms/form-switch");
+  @include meta.load-css("helpers/vr");
+  @include meta.load-css("dropdown");
+  @include meta.load-css("accordion");
+  @include meta.load-css("list-group");
+  @include meta.load-css("modal");
+  @include meta.load-css("navbar");
+  @include meta.load-css("nav-link");
+  @include meta.load-css("pagination");
+  @include meta.load-css("placeholder");
+  @include meta.load-css("progress");
+  @include meta.load-css("close");
+  @include meta.load-css("carousel");
+  @include meta.load-css("tooltip");
+  @include meta.load-css("popover");
+  @include meta.load-css("spinner");
+  @include meta.load-css("tables");
 }
