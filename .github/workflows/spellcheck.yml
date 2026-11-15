@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: read # for streetsidesoftware/cspell-action to fetch files for commit
       pull-requests: read # for streetsidesoftware/cspell-action to fetch commits for PR
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
