@@ -24,8 +24,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: ["24.21.0"]
-        os: [ubuntu-latest]
+        node: ["24.22.3"]
+        os: [ubuntu-slim]
 
     steps:
       - name: Clone repository

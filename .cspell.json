@@ -13,12 +13,14 @@
     "Navs",
     "nomodule",
     "npmjs",
+    "nvmrc",
     "Oliff",
     "Segoe",
     "twbs",
     "vbtn",
     "vstack",
-    "WCAG"
+    "WCAG",
+    "zizmor"
   ],
   "language": "en,en-US,lorem",
   "allowCompoundWords": true,
