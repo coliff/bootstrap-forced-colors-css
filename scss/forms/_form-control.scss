@@ -1,8 +1,10 @@
-.form-control:focus {
-  outline: 1px solid transparent;
-}
+.form-control {
+  &:focus {
+    outline: 1px solid transparent;
+  }
 
-.form-control:disabled {
-  color: GrayText;
-  border-color: GrayText;
+  &:disabled {
+    color: GrayText;
+    border-color: GrayText;
+  }
 }

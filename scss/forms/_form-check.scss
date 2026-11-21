@@ -1,10 +1,10 @@
-@media (prefers-color-scheme: light) {
-  .form-check-input:checked {
-    background-color: ButtonText !important;
-  }
-}
-
 .form-check-input {
+  @media (prefers-color-scheme: light) {
+    &:checked {
+      background-color: ButtonText !important;
+    }
+  }
+
   &:focus {
     outline: 1px solid Highlight;
   }

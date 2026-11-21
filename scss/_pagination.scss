@@ -1,9 +1,11 @@
-.page-item.active .page-link {
-  color: ButtonText;
-  outline: 1px solid transparent;
-}
+.page-link {
+  .page-item.active & {
+    color: ButtonText;
+    outline: 1px solid transparent;
+  }
 
-.disabled > .page-link,
-.page-link.disabled {
-  color: GrayText;
+  .disabled > &,
+  &.disabled {
+    color: GrayText;
+  }
 }
