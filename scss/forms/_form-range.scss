@@ -1,19 +1,19 @@
 .form-range {
   appearance: auto;
-}
 
-.form-range:disabled {
-  opacity: 0.5;
-}
+  &:disabled {
+    opacity: 0.5;
+  }
 
-.form-range::-webkit-slider-runnable-track {
-  background-color: ButtonText;
-}
+  &::-webkit-slider-runnable-track {
+    background-color: ButtonText;
+  }
 
-.form-range::-webkit-slider-thumb {
-  outline: 2px solid Canvas;
-}
+  &::-webkit-slider-thumb {
+    outline: 2px solid Canvas;
+  }
 
-.form-range::-moz-range-thumb {
-  outline: 2px solid Canvas;
+  &::-moz-range-thumb {
+    outline: 2px solid Canvas;
+  }
 }

@@ -12,8 +12,7 @@
   hr {
     opacity: 0.5;
   }
-  .btn.disabled,
-  .btn[disabled] {
+  .btn.disabled, .btn[disabled] {
     color: GrayText;
     border-color: GrayText;
   }
@@ -152,8 +151,7 @@
     color: ButtonText;
     outline: 1px solid transparent;
   }
-  .disabled > .page-link,
-  .page-link.disabled {
+  .disabled > .page-link, .page-link.disabled {
     color: GrayText;
   }
   .placeholder {
@@ -200,8 +198,7 @@
   .carousel-control-prev {
     opacity: 0.8;
   }
-  .carousel-control-next:focus,
-  .carousel-control-next:hover,
+  .carousel-control-next:focus, .carousel-control-next:hover,
   .carousel-control-prev:focus,
   .carousel-control-prev:hover {
     opacity: 1;

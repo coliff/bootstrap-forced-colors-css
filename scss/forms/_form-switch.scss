@@ -1,15 +1,15 @@
-@media (prefers-color-scheme: dark) {
-  .form-switch .form-check-input {
+.form-switch .form-check-input {
+  @media (prefers-color-scheme: dark) {
     border: 1px solid;
+
+    [data-bs-theme="dark"] &:not(:checked):not(:focus) {
+      filter: brightness(5);
+    }
   }
 
-  [data-bs-theme="dark"] .form-switch .form-check-input:not(:checked):not(:focus) {
-    filter: brightness(5);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .form-switch .form-check-input:checked {
-    forced-color-adjust: none;
+  @media (prefers-color-scheme: light) {
+    &:checked {
+      forced-color-adjust: none;
+    }
   }
 }

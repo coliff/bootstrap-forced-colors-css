@@ -1,7 +1,9 @@
-.btn.disabled,
-.btn[disabled] {
-  color: GrayText;
-  border-color: GrayText;
+.btn {
+  &.disabled,
+  &[disabled] {
+    color: GrayText;
+    border-color: GrayText;
+  }
 }
 
 button:focus:not(:focus-visible) {
