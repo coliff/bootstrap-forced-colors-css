@@ -54,7 +54,8 @@ Or you can import the CSS into your own CSS file:
 
 - [Accordion](https://coliff.github.io/bootstrap-forced-colors-css/tests/#accordion) buttons have improved contrast in dark mode
 - [Badges](https://coliff.github.io/bootstrap-forced-colors-css/tests/#badge) within buttons have a 1px border to improve contrast
-- [Buttons](https://coliff.github.io/bootstrap-forced-colors-css/tests/#buttons) have improved focus state contrast (2px visible outline rather than 1px)
+- [Buttons](https://coliff.github.io/bootstrap-forced-colors-css/tests/#buttons), accordion buttons, close buttons, dropdown items, nav links, pagination links, range inputs and the navbar toggler have a visible 2px focus outline (Bootstrap's `box-shadow` focus ring is removed in forced colors mode)
+- [Active and checked buttons](https://coliff.github.io/bootstrap-forced-colors-css/tests/#buttons) use `HighlightText` on `Highlight` for readable contrast
 - [Disabled buttons](https://coliff.github.io/bootstrap-forced-colors-css/tests/#buttons) display the correct color using the `GrayText` name
 - [Carousel](https://coliff.github.io/bootstrap-forced-colors-css/tests/#carousel) indicators have background-color issue resolved
 - [Close button](https://coliff.github.io/bootstrap-forced-colors-css/tests/#toasts) has improved contrast by reducing the opacity
@@ -67,7 +68,7 @@ Or you can import the CSS into your own CSS file:
 - [Pagination](https://coliff.github.io/bootstrap-forced-colors-css/tests/#pagination): Disabled page link display the correct color using the `GrayText` name
 - [Placeholder](https://coliff.github.io/bootstrap-forced-colors-css/tests/#placeholder): Fix for invisible placeholder boxes
 - [Popovers](https://coliff.github.io/bootstrap-forced-colors-css/tests/#popovers): Fixes invisible arrow issue
-- [Progress](https://coliff.github.io/bootstrap-forced-colors-css/tests/#progress): Is no longer invisible
+- [Progress](https://coliff.github.io/bootstrap-forced-colors-css/tests/#progress): Is no longer invisible, and labels inside progress bars are shown without a backplate box
 - [Progress](https://coliff.github.io/bootstrap-forced-colors-css/tests/#progress): Improved stacked progress bar contrast
 - [Spinners](https://coliff.github.io/bootstrap-forced-colors-css/tests/#spinners): Fixes animation
 - [Tables](https://coliff.github.io/bootstrap-forced-colors-css/tests/#tables): Have a 1px outline to improve contrast

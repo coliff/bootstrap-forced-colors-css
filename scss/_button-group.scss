@@ -1,7 +1,12 @@
+// `forced-color-adjust: none` stops the browser drawing a Canvas-coloured
+// backplate behind the label, which would hide HighlightText text.
 .btn-check:checked + .btn,
 .btn.active,
 .btn.show,
 .btn:first-child:active,
 :not(.btn-check) + .btn:active {
+  color: HighlightText;
   background-color: Highlight;
+  border-color: Highlight;
+  forced-color-adjust: none;
 }

@@ -1,11 +1,13 @@
 .progress {
-  --bs-progress-bar-bg: Highlight;
   outline: 1px solid transparent;
 
   .progress-bar {
     font-weight: 700;
+    color: Canvas !important;
     background-color: CanvasText !important;
     border-right: 1px solid transparent;
+    // Stops the browser drawing a backplate behind the label text.
+    forced-color-adjust: none;
   }
 }
 
