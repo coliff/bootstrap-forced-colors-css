@@ -1,0 +1,18 @@
+// Bootstrap shows focus with `box-shadow` and `outline: 0`, but forced colors
+// mode removes box shadows, which leaves no visible focus indicator.
+.btn:focus-visible,
+.btn-check:focus-visible + .btn,
+.btn-close:focus-visible,
+.navbar-toggler:focus-visible,
+.nav-link:focus-visible,
+.form-range:focus-visible {
+  outline: 2px solid Highlight;
+  outline-offset: 2px;
+}
+
+.accordion-button:focus-visible,
+.dropdown-item:focus-visible,
+.page-link:focus-visible {
+  outline: 2px solid Highlight;
+  outline-offset: -2px;
+}

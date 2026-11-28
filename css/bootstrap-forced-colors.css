@@ -24,7 +24,10 @@
   .btn.show,
   .btn:first-child:active,
   :not(.btn-check) + .btn:active {
+    color: HighlightText;
     background-color: Highlight;
+    border-color: Highlight;
+    forced-color-adjust: none;
   }
   .btn .badge {
     outline: 1px solid transparent;
@@ -158,13 +161,14 @@
     background-color: ButtonText;
   }
   .progress {
-    --bs-progress-bar-bg: Highlight;
     outline: 1px solid transparent;
   }
   .progress .progress-bar {
     font-weight: 700;
+    color: Canvas !important;
     background-color: CanvasText !important;
     border-right: 1px solid transparent;
+    forced-color-adjust: none;
   }
   .progress-stacked {
     outline: 1px solid transparent;
@@ -230,6 +234,21 @@
   }
   .table {
     outline: 1px solid transparent;
+  }
+  .btn:focus-visible,
+  .btn-check:focus-visible + .btn,
+  .btn-close:focus-visible,
+  .navbar-toggler:focus-visible,
+  .nav-link:focus-visible,
+  .form-range:focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+  .accordion-button:focus-visible,
+  .dropdown-item:focus-visible,
+  .page-link:focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: -2px;
   }
 }
 
